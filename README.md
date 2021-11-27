@@ -118,7 +118,7 @@ Desenvolva um projeto e a **documentação (Insomnia)** utilizando as tecnologia
 
 
 ## Delete Client
-<img align="center" alt="img criação"  src="assets/deleteClient.png" /> --> -->
+<img align="center" alt="img criação"  src="assets/deleteClient.png" /> --> 
 
  Dependências do Projetos :card_index_dividers:
 
@@ -133,11 +133,16 @@ Desenvolva um projeto e a **documentação (Insomnia)** utilizando as tecnologia
 > - GraphQL
 >
 > ```npm i @nestjs/graphql graphql@^15 apollo-server-express```
-<!-- 
-> - express
->
-> ```npm install express```
 
+> - TYPEORM
+>
+> ```npm install --save @nestjs/typeorm typeorm pg```
+
+> - @nestjs/config
+>
+> ```npm i --save @nestjs/config```
+
+<!-- 
 > - uuidv4s
 >
 >```npm install uuidv4```

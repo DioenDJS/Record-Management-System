@@ -147,6 +147,9 @@ Desenvolva um projeto e a **documentação (Insomnia)** utilizando as tecnologia
 >
 >```npm i @nestjs-query/core @nestjs/common class-transformer```
 
+> - @nestjs-query/query-graphql
+>
+>```npm i @nestjs-query/query-graphql @nestjs/common @nestjs/graphql graphql graphql-subscriptions class-transformer class-validator dataloader```
 <!-- 
 > - ts-node-dev 
 >

@@ -129,6 +129,10 @@ Desenvolva um projeto e a **documentação (Insomnia)** utilizando as tecnologia
 > - dependencies
 >
 > ```npm i --save @nestjs/core @nestjs/common rxjs reflect-metadata```
+
+> - GraphQL
+>
+> ```npm i @nestjs/graphql graphql@^15 apollo-server-express```
 <!-- 
 > - express
 >

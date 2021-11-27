@@ -137,11 +137,12 @@ Desenvolva um projeto e a **documentação (Insomnia)** utilizando as tecnologia
 > - TYPEORM
 >
 > ```npm install --save @nestjs/typeorm typeorm pg```
-<!-- 
-> - express
->
-> ```npm install express```
 
+> - @nestjs/config
+>
+> ```npm i --save @nestjs/config```
+
+<!-- 
 > - uuidv4s
 >
 >```npm install uuidv4```

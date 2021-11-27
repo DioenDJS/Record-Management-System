@@ -3,7 +3,7 @@
 <p align="center">
     <img src="https://img.shields.io/static/v1?label=DioenD&message=JS&color=d2cca1&labelColor=757780" alt="DioenD">
     <img src="https://img.shields.io/static/v1?label=Faculdade Senac Pelotas&message=4º&color=fdca40&labelColor=000000" alt="Faculdade Senac Pelotas">
-    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/DioenDJS/NestJS-estudos" >
+    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/DioenDJS/Record-Management-System" >
 </p>
 
 ## Tecnologias Utilizadas no projeto :construction:
@@ -13,6 +13,7 @@
 - [Docker](https://www.docker.com/get-started) <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg" height="20" width="25" alt="Nest Logo" />
 - [nestjs](https://nestjs.com/) <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg" height="20" width="25" alt="Nest Logo" />
 - [TYPEORM](https://typeorm.io/#/) <img src="https://raw.githubusercontent.com/typeorm/typeorm/master/resources/logo_big.png" height="20" width="45" alt="Nest Logo" />
+- [Nestjs-Query](https://doug-martin.github.io/nestjs-query/) <img src="https://doug-martin.github.io/nestjs-query/img/logo.svg" height="20" width="45" alt="Nest Logo" />
 
 
 
@@ -74,10 +75,10 @@ Desenvolva um projeto e a **documentação (Insomnia)** utilizando as tecnologia
 
 ## Como executar :gear:
 
-- Clone o repositório `https://github.com/DioenDJS/.git`.
+- Clone o repositório `https://github.com/DioenDJS/Record-Management-System.git`.
 - Install as dependências com o comando `npm install`.
-- Rode o docker  `docker-compose up` para subir a imagem do postgres.
-- Rode o projeto `npm run start:dev` para iniciar a aplicação.
+<!-- - Rode o docker  `docker-compose up` para subir a imagem do postgres. -->
+- Rode o projeto `npm start` para iniciar a aplicação.
 - Ao final a aplicação estará disponível em `http://localhost:3000`.
 
 
@@ -142,11 +143,11 @@ Desenvolva um projeto e a **documentação (Insomnia)** utilizando as tecnologia
 >
 > ```npm i --save @nestjs/config```
 
-<!-- 
-> - uuidv4s
+> - @nestjs-query/core
 >
->```npm install uuidv4```
+>```npm i @nestjs-query/core @nestjs/common class-transformer```
 
+<!-- 
 > - ts-node-dev 
 >
 >```npm i ts-node-dev -D``` -->

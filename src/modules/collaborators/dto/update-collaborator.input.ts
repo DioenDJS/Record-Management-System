@@ -3,6 +3,6 @@ import { InputType, Field, ID, PartialType } from '@nestjs/graphql';
 
 @InputType()
 export class UpdateCollaboratorInput extends PartialType(CreateCollaboratorInput) {
-  @Field(() => ID)
+  @Field(() => ID, {nullable: true})
   id?: string;
 }

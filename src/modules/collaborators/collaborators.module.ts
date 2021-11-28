@@ -1,4 +1,4 @@
-import { NestjsQueryGraphQLModule } from '@nestjs-query/query-graphql';
+import { NestjsQueryGraphQLModule, PagingStrategies } from '@nestjs-query/query-graphql';
 import { NestjsQueryTypeOrmModule } from '@nestjs-query/query-typeorm';
 import { Module } from '@nestjs/common';
 import { CollaboratorDTO } from './dto/collaborator.dto';
@@ -17,6 +17,7 @@ import { Collaborator } from './entities/collaborator.entity';
           CreateDTOClass: CreateCollaboratorInput,
           UpdateDTOClass: UpdateCollaboratorInput,
           enableTotalCount: true,
+          pagingStrategy: PagingStrategies.OFFSET,
         }
       ],
     }),

@@ -77,9 +77,9 @@ Desenvolva um projeto e a **documentação (Insomnia)** utilizando as tecnologia
 
 - Clone o repositório `https://github.com/DioenDJS/Record-Management-System.git`.
 - Install as dependências com o comando `npm install`.
-<!-- - Rode o docker  `docker-compose up` para subir a imagem do postgres. -->
-- Rode o projeto `npm start` para iniciar a aplicação.
-- Ao final a aplicação estará disponível em `http://localhost:3000`.
+- Rode o docker  `docker-compose up` para subir a imagem do postgres.
+- Rode o projeto `npm run start:dev` para iniciar a aplicação.
+- Ao final a aplicação estará disponível em `http://localhost:3000/graphql`.
 
 
 > como foi instalado e configurado o projeto

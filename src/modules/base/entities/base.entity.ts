@@ -1,4 +1,3 @@
-import { InterfaceType } from "@nestjs/graphql";
 import { 
   CreateDateColumn, 
   DeleteDateColumn, 

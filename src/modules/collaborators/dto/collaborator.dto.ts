@@ -1,11 +1,9 @@
 import { FilterableField } from "@nestjs-query/query-graphql";
-import { ID, ObjectType } from "@nestjs/graphql";
+import { ObjectType } from "@nestjs/graphql";
+import { BaseDTO } from "src/modules/base/dto/base.dto";
 
 @ObjectType('Collaborator')
-export class CollaboratorDTO {
-
-  @FilterableField(() => ID)
-  id?: string;
+export class CollaboratorDTO extends BaseDTO{
 
   @FilterableField()
   name: string;
@@ -13,13 +11,4 @@ export class CollaboratorDTO {
   @FilterableField()
   CPF: string;
 
-  @FilterableField()
-  createdAt?: Date;
-
-  @FilterableField()
-  updatedAt?: Date;
-
-  @FilterableField()
-  deletedAt?: Date;
-  
 }

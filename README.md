@@ -35,11 +35,11 @@ Desenvolva um projeto e a **documentação (Insomnia)** utilizando as tecnologia
 
 **Critérios de aceitação**
 
-- [ ]  A listagem de colaboradores deve estar paginada
-- [ ]  Deve ser possível filtrar colaboradores por nome
-- [ ]  Deve ser possível ordenar os colaboradores por nome e data de cadastro
-- [ ]  Deve ser possível atualizar os dados de um colaborador
-- [ ]  A exclusão de colaboradores deve aplicar um delete lógico (soft delete) do registro.
+- [x]  A listagem de colaboradores deve estar paginada
+- [x]  Deve ser possível filtrar colaboradores por nome
+- [x]  Deve ser possível ordenar os colaboradores por nome e data de cadastro
+- [x]  Deve ser possível atualizar os dados de um colaborador
+- [x]  A exclusão de colaboradores deve aplicar um delete lógico (soft delete) do registro.
 
 ### **História de Usuário #2 - Gerenciar Tarefas**
 

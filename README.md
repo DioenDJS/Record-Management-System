@@ -40,7 +40,7 @@ Desenvolva um projeto e a **documentação (Insomnia)** utilizando as tecnologia
 - [x]  Deve ser possível ordenar os colaboradores por nome e data de cadastro
 - [x]  Deve ser possível atualizar os dados de um colaborador
 - [x]  A exclusão de colaboradores deve aplicar um delete lógico (soft delete) do registro.
-
+- [Exemplo no MR](https://github.com/DioenDJS/Record-Management-System/pull/7)
 ### **História de Usuário #2 - Gerenciar Tarefas**
 
 **Como** usuário do sistema
@@ -49,13 +49,14 @@ Desenvolva um projeto e a **documentação (Insomnia)** utilizando as tecnologia
 
 ### Critérios de aceitação
 
-- [ ]  A listagem de tarefas deve estar paginada
-- [ ]  Filtragem por campos deve ser possível
-- [ ]  A exclusão de uma tarefa deve ser física (hard delete)
-- [ ]  Deve ser possível ordenar as tarefas por data prevista de entrega
-- [ ]  Ao cadastrar uma tarefa já deve ser especificado o colaborador responsável
-- [ ]  Deve ser possível ver todas as tarefas de um colaborador específico
-- [ ]  Deve ser possível atualizar os dados de uma tarefa
+- [x]  A listagem de tarefas deve estar paginada
+- [x]  Filtragem por campos deve ser possível
+- [x]  A exclusão de uma tarefa deve ser física (hard delete)
+- [x]  Deve ser possível ordenar as tarefas por data prevista de entrega
+- [x]  Ao cadastrar uma tarefa já deve ser especificado o colaborador responsável
+- [x]  Deve ser possível ver todas as tarefas de um colaborador específico
+- [x]  Deve ser possível atualizar os dados de uma tarefa
+- [Exemplo no MR](https://github.com/DioenDJS/Record-Management-System/pull/9)
 
 ### **História de Usuário #3 - Gerenciar Serviços**
 

@@ -1,4 +1,6 @@
 import { InputType, Field } from '@nestjs/graphql';
+import { UpdateTaskInput } from 'src/modules/tasks/dto/update-task.input';
+
 @InputType()
 export class CreateServiceInput {
   
@@ -8,5 +10,7 @@ export class CreateServiceInput {
   @Field()
   expectedDeliveryDate: Date;
 
+  @Field(() => [UpdateTaskInput])
+  tasks?:UpdateTaskInput;
 
 }

@@ -30,6 +30,6 @@ export class Task extends BaseEntity {
   @Column({nullable: true})
   collaboratorId?: string;
 
-  @ManyToOne(() => Service, (service) => service.tasks)
+  @ManyToOne(() => Service, (service) => service.tasks, {onDelete:'CASCADE'})
   service: Service;
 }

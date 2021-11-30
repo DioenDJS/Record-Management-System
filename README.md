@@ -66,13 +66,13 @@ Desenvolva um projeto e a **documentação (Insomnia)** utilizando as tecnologia
 
 ### Critérios de aceitação
 
-- [ ]  A listagem de serviços deve estar paginada
-- [ ]  Filtragem por campos deve ser possível
-- [ ]  Quando excluir um serviço todas as tarefas vinculadas a ele também devem ser excluídas (hard delete para ambos)
-- [ ]  Deve ser possível ordenar as serviços por data prevista de entrega
-- [ ]  Deve ser possível visualizar um serviço em específico
-- [ ]  Deve ser possível visualizar todas as tarefas de um serviço selecionado
-- [ ]  Deve ser possível atualizar os dados de um serviço
+- [x]  A listagem de serviços deve estar paginada
+- [x]  Filtragem por campos deve ser possível
+- [x]  Quando excluir um serviço todas as tarefas vinculadas a ele também devem ser excluídas (hard delete para ambos)
+- [x]  Deve ser possível ordenar as serviços por data prevista de entrega
+- [x]  Deve ser possível visualizar um serviço em específico
+- [x]  Deve ser possível visualizar todas as tarefas de um serviço selecionado
+- [x]  Deve ser possível atualizar os dados de um serviço
 
 ## Como executar :gear:
 

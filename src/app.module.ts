@@ -5,6 +5,7 @@ import { join } from 'path';
 import { AppService } from './app.service';
 import { CollaboratorsModule } from './modules/collaborators/collaborators.module';
 import { TasksModule } from './modules/tasks/tasks.module';
+import { ServicesModule } from './modules/services/services.module';
 
 @Module({
   imports: [GraphQLModule.forRoot({
@@ -14,6 +15,7 @@ import { TasksModule } from './modules/tasks/tasks.module';
   TypeOrmModule.forRoot(),
   CollaboratorsModule,
   TasksModule,
+  ServicesModule,
 ],
   providers: [AppService],
 })

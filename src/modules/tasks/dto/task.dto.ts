@@ -2,6 +2,7 @@ import { FilterableField, FilterableRelation } from '@nestjs-query/query-graphql
 import { ObjectType, registerEnumType } from '@nestjs/graphql';
 import { BaseDTO } from 'src/modules/base/dto/base.dto';
 import { CollaboratorDTO } from 'src/modules/collaborators/dto/collaborator.dto';
+import { ServiceDTO } from 'src/modules/services/dto/service.dto';
 import { TaskType } from '../entities/task.entity';
 
 registerEnumType(TaskType, {
@@ -10,6 +11,7 @@ registerEnumType(TaskType, {
 
 @ObjectType('Task')
 @FilterableRelation('collaborator', () => CollaboratorDTO, { nullable: true })
+@FilterableRelation('service', () => ServiceDTO, { nullable: true })
 export class TaskDTO extends BaseDTO {
 
   @FilterableField()

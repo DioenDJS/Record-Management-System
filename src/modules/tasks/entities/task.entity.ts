@@ -1,5 +1,6 @@
 import { BaseEntity } from 'src/modules/base/entities/base.entity';
 import { Collaborator } from 'src/modules/collaborators/entities/collaborator.entity';
+import { Service } from 'src/modules/services/entities/service.entity';
 import { Column, Entity, ManyToOne } from 'typeorm';
 
 export enum TaskType {
@@ -29,4 +30,6 @@ export class Task extends BaseEntity {
   @Column({nullable: true})
   collaboratorId?: string;
 
+  @ManyToOne(() => Service, (service) => service.tasks)
+  service: Service;
 }
